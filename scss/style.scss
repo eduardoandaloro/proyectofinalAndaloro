@@ -1,0 +1,159 @@
+@import"./variables";
+@import"./galeria";
+@import"./index";
+@import"./footer";
+
+.navbar-light .navbar-toggler {
+  color: rgba(224, 9, 9, 0.55);
+  border-color: rgba(235, 225, 225, 0.1);
+}
+.card-body{
+  background-color: #202c3c;
+}
+.form-label{
+  color: white;
+}
+.h4{
+  color: red;
+}
+
+.card {
+  color: $primercolor }
+
+.row {
+  background-color: $primercolor }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+
+section {
+  background-color: $primercolor }
+
+.navbar-expand-lg {
+  background-color: none; }
+
+.container-fluid {
+  background-color: none; }
+
+div {
+  width: 100%; }
+
+/*******H1/H2*******/
+h1 {
+  color: gray;
+  font-weight: 600px;
+  font-size: 70px;
+  font-family: "roboto" , sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  background-size: cover;
+  background-position: center; }
+
+h2 {
+  color: rgb(247, 9, 9);
+  font-style: italic;
+  font-size: 100px;
+  font-family: "supermercado one", cursive;
+  text-align: center; }
+
+/*******PARRAFOS*******/
+p {
+  color: black;
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 20px;
+  padding: 6px; }
+
+footer {
+  background-color: #050505; }
+
+
+/******EXTEND******/
+.texto, .texto1 {
+  color: aqua;
+  text-align: center; }
+
+.texto1 {
+  color: aqua; }
+
+/********MIXIN********/
+.estilocard .card1 a {
+  font-weight: 500;
+  text-decoration: none;
+  color: #3498db; }
+
+.estilocard .card1 p {
+  padding: 0 1rem;
+  font-size: 5px;
+  font-weight: 300; }
+
+/******CARD******/
+.fondomain {
+  background-color: $primercolor }
+
+.card-title {
+  color: black; }
+
+.iconos {
+  background-color: $primercolor }
+
+.card-body {
+  background-color: $primercolor }
+
+.navbar-nav {
+  background-color:grey ; }
+
+.baner {
+  padding: 0 30px;
+  margin-top: 150px;
+  text-align: center;
+  color: #fff; }
+
+.h1 {
+  font-size: 2000px;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  text-decoration: none; }
+
+.baner span {
+  color: #fff;
+  font-size: 30px; }
+
+.boton1 {
+  text-decoration: none;
+  margin-right: 40px;
+  padding: 10px 30px;
+  background-color: #f80808;
+  color: #fff;
+  border-radius: 5px; }
+
+.boton1:hover {
+  background-color: #fff;
+  color: #f80808;
+  transition: .5s; }
+
+.boton2:hover {
+  background-color: #f80808;
+  color: #fff;
+  transition: .5s; }
+
+.boton2 {
+  text-decoration: none;
+  margin-right: 40px;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: #f80808;
+  border-radius: 5px; }
+
+.navbar-toggler-icon {
+  background-color: #fff; }
+

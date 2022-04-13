@@ -1,4 +1,3 @@
-/******* escritorio GALERIA *******/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 .row {
   margin-bottom: 30px;
@@ -6,7 +5,7 @@
   padding: 5px;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   justify-content: flex-start; }
 
 .column {
@@ -30,14 +29,14 @@
   padding: 5px;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   justify-content: flex-start; }
 
 @media only screen and (min-width: 992px) {
   .card {
-    color: #044d57; }
+    color: none; }
   .row {
-    background-color: #044d57; }
+    background-color: none; }
   .column {
     flex: 25%; } }
 
@@ -45,25 +44,24 @@
   .column {
     flex: 50%; }
   .card {
-    color: #044d57; }
+    color: none; }
   .row {
-    background-color: #044d57; } }
+    background-color: none; } }
 
 @media only screen and (max-width: 600px) {
   .column {
+    display: flex;
     flex: 100%; } }
 
 .card {
-  color: #044d57; }
+  color: none; }
 
 .row {
-  background-color: #044d57; }
-
-.navbar-expand {
-  background-color: aqua; }
+  background-color: none; }
 
 img {
   width: 100%;
+  flex-wrap: wrap;
   justify-content: flex-start;
   margin: auto;
   padding: auto;
@@ -74,31 +72,55 @@ img {
   height: 20%;
   margin: auto;
   justify-content: center;
-  justify-content: flex-start; }
+  justify-content: flex-start;
+  flex-wrap: wrap; }
 
 * {
   margin: 0;
   padding: 0; }
 
+#info {
+  background: #181818;
+  color: #fff;
+  text-align: center;
+  padding: 20px; }
+
+#info.foto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.info-serie img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #fff; }
+
 .header-index {
   background-image: url(../img/logo6.jpg);
+  background-repeat: no-repeat;
   object-fit: cover;
-  height: 800px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  height: 900px;
+  background-size: cover;
+  background-position: center; }
 
-header {
-  background-image: url(../img/thewitcher.jpeg);
+body {
+  background-image: url(../img/logo6.jpg);
+  background-repeat: no-repeat;
   object-fit: cover;
-  height: 400px; }
+  flex-wrap: wrap;
+  height: 100%;
+  background-size: cover;
+  background-position: center; }
 
 /****** mobile INDEX *******/
 @media only screen and (max-width: 600px) {
   .header-index {
-    height: 1200px; }
+    height: 1600px; }
   .iconos {
-    background-color: #044d57; } }
+    background-color: none; } }
 
-/******* escritorio INDEX *******/
 /********* ICONOS *********/
 .bi-facebook {
   font-size: 30px;
@@ -135,7 +157,7 @@ header {
   justify-content: center; }
 
 .copy {
-  color: black;
+  color: white;
   font-size: 20px; }
 
 .sociales {
@@ -146,6 +168,29 @@ header {
   align-items: center;
   flex-direction: row; }
 
+.navbar-light .navbar-toggler {
+  color: rgba(224, 9, 9, 0.55);
+  border-color: rgba(235, 225, 225, 0.1); }
+
+.card-body {
+  background-color: #202c3c; }
+
+.form-label {
+  color: white; }
+
+.h4 {
+  color: red; }
+
+.card {
+  color: none; }
+
+.row {
+  background-color: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
 * {
   margin: 0;
   padding: 0;
@@ -153,25 +198,8 @@ header {
   list-style: none;
   box-sizing: border-box; }
 
-#info {
-  background: #131111;
-  color: #fff;
-  text-align: center;
-  padding: 20px; }
-
-#info.foto {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.info-serie img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 7px solid #fff; }
-
 section {
-  background-color: #044d57; }
+  background-color: none; }
 
 .navbar-expand-lg {
   background-color: none; }
@@ -194,9 +222,9 @@ h1 {
   background-position: center; }
 
 h2 {
-  color: black;
+  color: #f70909;
   font-style: italic;
-  font-size: 50px;
+  font-size: 100px;
   font-family: "supermercado one", cursive;
   text-align: center; }
 
@@ -232,16 +260,16 @@ footer {
 
 /******CARD******/
 .fondomain {
-  background-color: #044d57; }
+  background-color: none; }
 
 .card-title {
   color: black; }
 
 .iconos {
-  background-color: #044d57; }
+  background-color: none; }
 
 .card-body {
-  background-color: #044d57; }
+  background-color: none; }
 
 .navbar-nav {
   background-color: grey; }
@@ -261,11 +289,6 @@ footer {
 .baner span {
   color: #fff;
   font-size: 30px; }
-
-.h2 {
-  font-size: 46px;
-  font-weight: 600;
-  color: red; }
 
 .boton1 {
   text-decoration: none;
@@ -295,7 +318,3 @@ footer {
 
 .navbar-toggler-icon {
   background-color: #fff; }
-
-@media (min-width: 920px) {
-  .foto {
-    width: 1000px; } }

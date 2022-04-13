@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0; }
+
+
+    #info {
+      background: #181818;
+      color: #fff;
+      text-align: center;
+      padding: 20px; }
+    
+    #info.foto {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    
+    .info-serie img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 7px solid #fff; }
+    
+  .header-index {
+    background-image: url(../img/logo6.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    flex-wrap: wrap;
+    height: 900px;
+    background-size: cover;
+    background-position: center; }
+  
+  body {
+    background-image: url(../img/logo6.jpg) ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    flex-wrap: wrap;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+     }
+  
+  /****** mobile INDEX *******/
+  @media only screen and (max-width: 600px) {
+    .header-index {
+      height: 1600px; }
+    .iconos {
+      background-color: $primercolor } }
+  
+     
+          
+
+     
